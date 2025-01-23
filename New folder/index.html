@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Splitter</title>
+  <script defer src="app.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Expense Splitter</h1>
+  <div class="form-group">
+    <label for="names">Enter Names (comma-separated):</label>
+    <input type="text" id="names" placeholder="Alice, Bob, Charlie">
+  </div>
+  <div class="form-group">
+    <label for="total">Total Expense:</label>
+    <input type="number" id="total" placeholder="Enter total amount">
+  </div>
+  <button id="calculate">Calculate</button>
+  <div class="result" id="result"></div>
+</body>
+</html>
